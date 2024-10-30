@@ -1,13 +1,9 @@
-[![Circle
-CI](https://circleci.com/gh/rockaport/alice.svg?style=shield)](https://circleci.com/gh/rockaport/alice)
-[![Build Status](https://travis-ci.org/rockaport/alice.svg?branch=master)](https://travis-ci.org/rockaport/alice)
-[![Release](https://jitpack.io/v/rockaport/alice.svg)](https://jitpack.io/#rockaport/alice)
-[![codecov](https://codecov.io/gh/rockaport/alice/branch/master/graph/badge.svg)](https://codecov.io/gh/rockaport/alice)
-
 # alice
 Alice is a Java AES/DES encryption library for working with byte arrays, files, and streams. Various key lengths, block modes, padding schemes, key deriviation functions, and Message Authentication Codes (MAC) are available. See the [javadoc](https://rockaport.github.io/alice) for more information.
 
 Alice provides an easy wrapper around the javax.crypto cipher suite for symmetric key encryption. if a MAC algorithm is selected, additional [Authenticated Encryption](https://en.wikipedia.org/wiki/Authenticated_encryption) is performed using an [encrypt-then-mac](https://en.wikipedia.org/wiki/Authenticated_encryption#Encrypt-then-MAC_.28EtM.29) scheme.
+
+**About this fork:** This fork is mainly intended to update third party dependencies and to publish the library to a private artifact repository.
 
 ![Data Structure](https://cloud.githubusercontent.com/assets/5369654/23003382/82fa26d0-f3be-11e6-8128-ce2ef6f71957.png)
 
