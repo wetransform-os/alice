@@ -25,7 +25,7 @@ jobs:
     with:
       semantic-release-dryrun: ${{ inputs.dryRun }}
       java-version: 11
-      multi-module: false
+      multi-module: true
       semantic-release: true
       skip-scan: false
     secrets:
